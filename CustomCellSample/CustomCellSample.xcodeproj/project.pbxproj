@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		620B02B6156603C700420FF7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620B02B5156603C700420FF7 /* UIKit.framework */; };
+		620B02B8156603C700420FF7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620B02B7156603C700420FF7 /* Foundation.framework */; };
+		620B02BA156603C700420FF7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 620B02B9156603C700420FF7 /* CoreGraphics.framework */; };
+		620B02C0156603C700420FF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 620B02BE156603C700420FF7 /* InfoPlist.strings */; };
+		620B02C2156603C700420FF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 620B02C1156603C700420FF7 /* main.m */; };
+		620B02C6156603C700420FF7 /* CustomCellSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 620B02C5156603C700420FF7 /* CustomCellSampleAppDelegate.m */; };
+		620B02C9156603C700420FF7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620B02C7156603C700420FF7 /* MainStoryboard.storyboard */; };
+		620B02CC156603C700420FF7 /* CustomCellSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 620B02CB156603C700420FF7 /* CustomCellSampleViewController.m */; };
+		620B02D81566061700420FF7 /* CustomTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 620B02D61566061700420FF7 /* CustomTable.m */; };
+		620B02D91566061700420FF7 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 620B02D71566061700420FF7 /* CustomCell.xib */; };
+		620B02DC156607A800420FF7 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 620B02DB156607A800420FF7 /* CustomCell.m */; };
+		620B02E1156616CD00420FF7 /* juju_mataashita.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 620B02DD156616CD00420FF7 /* juju_mataashita.jpg */; };
+		620B02E2156616CD00420FF7 /* perfume_toraianguru.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 620B02DE156616CD00420FF7 /* perfume_toraianguru.jpg */; };
+		620B02E3156616CD00420FF7 /* yui_hello.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 620B02DF156616CD00420FF7 /* yui_hello.jpeg */; };
+		620B02E4156616CD00420FF7 /* yuki_bisket.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 620B02E0156616CD00420FF7 /* yuki_bisket.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		620B02B1156603C700420FF7 /* CustomCellSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomCellSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		620B02B5156603C700420FF7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		620B02B7156603C700420FF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		620B02B9156603C700420FF7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		620B02BD156603C700420FF7 /* CustomCellSample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CustomCellSample-Info.plist"; sourceTree = "<group>"; };
+		620B02BF156603C700420FF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		620B02C1156603C700420FF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		620B02C3156603C700420FF7 /* CustomCellSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomCellSample-Prefix.pch"; sourceTree = "<group>"; };
+		620B02C4156603C700420FF7 /* CustomCellSampleAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCellSampleAppDelegate.h; sourceTree = "<group>"; };
+		620B02C5156603C700420FF7 /* CustomCellSampleAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCellSampleAppDelegate.m; sourceTree = "<group>"; };
+		620B02C8156603C700420FF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		620B02CA156603C700420FF7 /* CustomCellSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCellSampleViewController.h; sourceTree = "<group>"; };
+		620B02CB156603C700420FF7 /* CustomCellSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCellSampleViewController.m; sourceTree = "<group>"; };
+		620B02D51566061700420FF7 /* CustomTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTable.h; sourceTree = "<group>"; };
+		620B02D61566061700420FF7 /* CustomTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTable.m; sourceTree = "<group>"; };
+		620B02D71566061700420FF7 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		620B02DA156607A800420FF7 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		620B02DB156607A800420FF7 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		620B02DD156616CD00420FF7 /* juju_mataashita.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = juju_mataashita.jpg; sourceTree = "<group>"; };
+		620B02DE156616CD00420FF7 /* perfume_toraianguru.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = perfume_toraianguru.jpg; sourceTree = "<group>"; };
+		620B02DF156616CD00420FF7 /* yui_hello.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yui_hello.jpeg; sourceTree = "<group>"; };
+		620B02E0156616CD00420FF7 /* yuki_bisket.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = yuki_bisket.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		620B02AE156603C700420FF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620B02B6156603C700420FF7 /* UIKit.framework in Frameworks */,
+				620B02B8156603C700420FF7 /* Foundation.framework in Frameworks */,
+				620B02BA156603C700420FF7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		620B02A6156603C700420FF7 = {
+			isa = PBXGroup;
+			children = (
+				620B02BB156603C700420FF7 /* CustomCellSample */,
+				620B02B4156603C700420FF7 /* Frameworks */,
+				620B02B2156603C700420FF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		620B02B2156603C700420FF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				620B02B1156603C700420FF7 /* CustomCellSample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		620B02B4156603C700420FF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				620B02B5156603C700420FF7 /* UIKit.framework */,
+				620B02B7156603C700420FF7 /* Foundation.framework */,
+				620B02B9156603C700420FF7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		620B02BB156603C700420FF7 /* CustomCellSample */ = {
+			isa = PBXGroup;
+			children = (
+				620B02C4156603C700420FF7 /* CustomCellSampleAppDelegate.h */,
+				620B02C5156603C700420FF7 /* CustomCellSampleAppDelegate.m */,
+				620B02C7156603C700420FF7 /* MainStoryboard.storyboard */,
+				620B02CA156603C700420FF7 /* CustomCellSampleViewController.h */,
+				620B02CB156603C700420FF7 /* CustomCellSampleViewController.m */,
+				620B02BC156603C700420FF7 /* Supporting Files */,
+			);
+			path = CustomCellSample;
+			sourceTree = "<group>";
+		};
+		620B02BC156603C700420FF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				620B02DD156616CD00420FF7 /* juju_mataashita.jpg */,
+				620B02DE156616CD00420FF7 /* perfume_toraianguru.jpg */,
+				620B02DF156616CD00420FF7 /* yui_hello.jpeg */,
+				620B02E0156616CD00420FF7 /* yuki_bisket.jpg */,
+				620B02BD156603C700420FF7 /* CustomCellSample-Info.plist */,
+				620B02BE156603C700420FF7 /* InfoPlist.strings */,
+				620B02C1156603C700420FF7 /* main.m */,
+				620B02C3156603C700420FF7 /* CustomCellSample-Prefix.pch */,
+				620B02D51566061700420FF7 /* CustomTable.h */,
+				620B02D61566061700420FF7 /* CustomTable.m */,
+				620B02D71566061700420FF7 /* CustomCell.xib */,
+				620B02DA156607A800420FF7 /* CustomCell.h */,
+				620B02DB156607A800420FF7 /* CustomCell.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		620B02B0156603C700420FF7 /* CustomCellSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 620B02CF156603C700420FF7 /* Build configuration list for PBXNativeTarget "CustomCellSample" */;
+			buildPhases = (
+				620B02AD156603C700420FF7 /* Sources */,
+				620B02AE156603C700420FF7 /* Frameworks */,
+				620B02AF156603C700420FF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomCellSample;
+			productName = CustomCellSample;
+			productReference = 620B02B1156603C700420FF7 /* CustomCellSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		620B02A8156603C700420FF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = CustomCellSample;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "小松電機産業株式会社";
+			};
+			buildConfigurationList = 620B02AB156603C700420FF7 /* Build configuration list for PBXProject "CustomCellSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 620B02A6156603C700420FF7;
+			productRefGroup = 620B02B2156603C700420FF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				620B02B0156603C700420FF7 /* CustomCellSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		620B02AF156603C700420FF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620B02C0156603C700420FF7 /* InfoPlist.strings in Resources */,
+				620B02C9156603C700420FF7 /* MainStoryboard.storyboard in Resources */,
+				620B02D91566061700420FF7 /* CustomCell.xib in Resources */,
+				620B02E1156616CD00420FF7 /* juju_mataashita.jpg in Resources */,
+				620B02E2156616CD00420FF7 /* perfume_toraianguru.jpg in Resources */,
+				620B02E3156616CD00420FF7 /* yui_hello.jpeg in Resources */,
+				620B02E4156616CD00420FF7 /* yuki_bisket.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		620B02AD156603C700420FF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				620B02C2156603C700420FF7 /* main.m in Sources */,
+				620B02C6156603C700420FF7 /* CustomCellSampleAppDelegate.m in Sources */,
+				620B02CC156603C700420FF7 /* CustomCellSampleViewController.m in Sources */,
+				620B02D81566061700420FF7 /* CustomTable.m in Sources */,
+				620B02DC156607A800420FF7 /* CustomCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		620B02BE156603C700420FF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				620B02BF156603C700420FF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		620B02C7156603C700420FF7 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				620B02C8156603C700420FF7 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		620B02CD156603C700420FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		620B02CE156603C700420FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		620B02D0156603C700420FF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomCellSample/CustomCellSample-Prefix.pch";
+				INFOPLIST_FILE = "CustomCellSample/CustomCellSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		620B02D1156603C700420FF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CustomCellSample/CustomCellSample-Prefix.pch";
+				INFOPLIST_FILE = "CustomCellSample/CustomCellSample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		620B02AB156603C700420FF7 /* Build configuration list for PBXProject "CustomCellSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				620B02CD156603C700420FF7 /* Debug */,
+				620B02CE156603C700420FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		620B02CF156603C700420FF7 /* Build configuration list for PBXNativeTarget "CustomCellSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				620B02D0156603C700420FF7 /* Debug */,
+				620B02D1156603C700420FF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 620B02A8156603C700420FF7 /* Project object */;
+}
