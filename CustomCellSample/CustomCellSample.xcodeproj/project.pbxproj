@@ -15,7 +15,6 @@
 		620B02C6156603C700420FF7 /* CustomCellSampleAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 620B02C5156603C700420FF7 /* CustomCellSampleAppDelegate.m */; };
 		620B02C9156603C700420FF7 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 620B02C7156603C700420FF7 /* MainStoryboard.storyboard */; };
 		620B02CC156603C700420FF7 /* CustomCellSampleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 620B02CB156603C700420FF7 /* CustomCellSampleViewController.m */; };
-		620B02D81566061700420FF7 /* CustomTable.m in Sources */ = {isa = PBXBuildFile; fileRef = 620B02D61566061700420FF7 /* CustomTable.m */; };
 		620B02D91566061700420FF7 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 620B02D71566061700420FF7 /* CustomCell.xib */; };
 		620B02DC156607A800420FF7 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 620B02DB156607A800420FF7 /* CustomCell.m */; };
 		620B02E1156616CD00420FF7 /* juju_mataashita.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 620B02DD156616CD00420FF7 /* juju_mataashita.jpg */; };
@@ -38,8 +37,6 @@
 		620B02C8156603C700420FF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		620B02CA156603C700420FF7 /* CustomCellSampleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCellSampleViewController.h; sourceTree = "<group>"; };
 		620B02CB156603C700420FF7 /* CustomCellSampleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCellSampleViewController.m; sourceTree = "<group>"; };
-		620B02D51566061700420FF7 /* CustomTable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTable.h; sourceTree = "<group>"; };
-		620B02D61566061700420FF7 /* CustomTable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomTable.m; sourceTree = "<group>"; };
 		620B02D71566061700420FF7 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
 		620B02DA156607A800420FF7 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		620B02DB156607A800420FF7 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
@@ -114,8 +111,6 @@
 				620B02BE156603C700420FF7 /* InfoPlist.strings */,
 				620B02C1156603C700420FF7 /* main.m */,
 				620B02C3156603C700420FF7 /* CustomCellSample-Prefix.pch */,
-				620B02D51566061700420FF7 /* CustomTable.h */,
-				620B02D61566061700420FF7 /* CustomTable.m */,
 				620B02D71566061700420FF7 /* CustomCell.xib */,
 				620B02DA156607A800420FF7 /* CustomCell.h */,
 				620B02DB156607A800420FF7 /* CustomCell.m */,
@@ -195,7 +190,6 @@
 				620B02C2156603C700420FF7 /* main.m in Sources */,
 				620B02C6156603C700420FF7 /* CustomCellSampleAppDelegate.m in Sources */,
 				620B02CC156603C700420FF7 /* CustomCellSampleViewController.m in Sources */,
-				620B02D81566061700420FF7 /* CustomTable.m in Sources */,
 				620B02DC156607A800420FF7 /* CustomCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,6 +302,7 @@
 				620B02D1156603C700420FF7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
