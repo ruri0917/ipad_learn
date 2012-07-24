@@ -18,11 +18,7 @@
 
 - (void)viewDidLoad
 {
-<<<<<<< HEAD
     keys = [NSArray arrayWithObjects:@"和菓子", @"洋菓子",nil];
-=======
-    keys = [[NSArray alloc] initWithObjects:@"和菓子", @"洋菓子",nil];
->>>>>>> 4c1507447b7fc2e43d919411c94e9935441924ba
     NSArray *obj1 = [NSArray arrayWithObjects:@"ようかん",@"大福",@"あんみつ",nil];
     NSArray *obj2 = [NSArray arrayWithObjects:@"ケーキ",@"クッキー",@"ドーナツ",@"アイスクリーム", nil];
     NSArray *objs = [NSArray arrayWithObjects:obj1,obj2, nil];
@@ -42,21 +38,11 @@
     return [keys count];
 }
 
-<<<<<<< HEAD
 //引数sectionはsectionの順番
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-  NSLog(@"%d",section);
     NSString *key = [keys objectAtIndex:section];
     NSArray *nameSection = [names objectForKey:key];
-  NSLog(@"%@",key);
-  NSLog(@"%@",[nameSection objectAtIndex:0]);
-=======
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
-{
-    NSString *key = [keys objectAtIndex:section];
-    NSArray *nameSection = [names objectForKey:key];
->>>>>>> 4c1507447b7fc2e43d919411c94e9935441924ba
     return [nameSection count];
 }
 
